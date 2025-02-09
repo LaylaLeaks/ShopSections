@@ -1,0 +1,24 @@
+{
+  "name": "shopsections",
+  "version": "1.0.0",
+  "description": "A bot that automatically posts the upcoming Shop Sections to twitter as soon as they are updated.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fortnite",
+    "shop",
+    "itemshop",
+    "shopsections",
+    "fortnitebot",
+    "twitter"
+  ],
+  "author": "laylaleaks",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "twitter-api-v2": "^1.19.1"
+  }
+}
