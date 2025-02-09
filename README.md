@@ -3,7 +3,7 @@
 A bot that automatically posts the upcoming Shop Sections to twitter as soon as they are updated.
 You can make a custom design too!
 
-## Exmaple
+## Example
 
 <p align="center">
     <img src="https://i.imgur.com/OoFw77K.png">
