@@ -1,8 +1,13 @@
 [
   {
-    "sectionID": "JJK(2)",
+    "sectionID": "JJK(2)(1)",
     "displayName": "Jujutsu Kaisen",
-    "offerGroupCount": 3
+    "offerGroupCount": 7
+  },
+  {
+    "sectionID": "RickandMorty",
+    "displayName": "Rick and Morty",
+    "offerGroupCount": 4
   },
   {
     "sectionID": "Adidas",
@@ -10,22 +15,43 @@
     "offerGroupCount": 3
   },
   {
-    "sectionID": "Raiden",
-    "displayName": "Raiden",
-    "offerGroupCount": 1
-  },
-  {
-    "sectionID": "JordanBrand",
-    "displayName": "Air Superiority ",
-    "offerGroupCount": 2
-  },
-  {
     "sectionID": "NikeDrop14Bunny",
     "displayName": "Get Your Kicks",
     "offerGroupCount": 2
   },
   {
-    "sectionID": "RepYourTeamB",
+    "sectionID": "PunkPeely",
+    "displayName": "Spooky Offers",
+    "offerGroupCount": 6
+  },
+  {
+    "sectionID": "LoveIsInTheAir0210",
+    "displayName": "Love Is In The Air",
+    "offerGroupCount": 6
+  },
+  {
+    "sectionID": "DuosRF",
+    "displayName": "Duos",
+    "offerGroupCount": 2
+  },
+  {
+    "sectionID": "SignatureStyle0210",
+    "displayName": "Signature Style",
+    "offerGroupCount": 9
+  },
+  {
+    "sectionID": "FortniteFlowAdd1",
+    "displayName": "Fortnite Flow",
+    "offerGroupCount": 2
+  },
+  {
+    "sectionID": "CyberInfiltration",
+    "displayName": "Cyber Infiltration",
+    "background": "",
+    "offerGroupCount": 2
+  },
+  {
+    "sectionID": "RepYourTeamD",
     "displayName": "Rep Your Team",
     "offerGroupCount": 13
   },
@@ -35,39 +61,9 @@
     "offerGroupCount": 1
   },
   {
-    "sectionID": "GreenRootsBillie",
-    "displayName": "Billie Eilish",
-    "offerGroupCount": 1
-  },
-  {
     "sectionID": "Metallica3",
     "displayName": "Metallica",
     "offerGroupCount": 3
-  },
-  {
-    "sectionID": "LoveIsInTheAir0208",
-    "displayName": "Love Is In The Air",
-    "offerGroupCount": 3
-  },
-  {
-    "sectionID": "DuosRF",
-    "displayName": "Duos",
-    "offerGroupCount": 2
-  },
-  {
-    "sectionID": "FortniteFlow33-30",
-    "displayName": "Fortnite Flow",
-    "offerGroupCount": 3
-  },
-  {
-    "sectionID": "HeistFNCS",
-    "displayName": "Aces Wild Card",
-    "offerGroupCount": 3
-  },
-  {
-    "sectionID": "SignatureStyle0208",
-    "displayName": "Signature Style",
-    "offerGroupCount": 6
   },
   {
     "sectionID": "SpiderWoman",
@@ -75,12 +71,12 @@
     "offerGroupCount": 2
   },
   {
-    "sectionID": "SymbiotesVenom",
-    "displayName": "Symbiotes",
-    "offerGroupCount": 2
+    "sectionID": "HeistFNCS",
+    "displayName": "Aces Wild Card",
+    "offerGroupCount": 3
   },
   {
-    "sectionID": "JamTracks0208",
+    "sectionID": "JamTracks0210",
     "displayName": "Jam Tracks",
     "offerGroupCount": 3
   },
@@ -120,68 +116,33 @@
     "offerGroupCount": 7
   },
   {
-    "sectionID": "JJK(2)(1)",
-    "displayName": "Jujutsu Kaisen",
-    "offerGroupCount": 7
-  },
-  {
-    "sectionID": "RickandMorty",
-    "displayName": "Rick and Morty",
+    "sectionID": "Academy",
+    "displayName": "Academy Champions",
     "offerGroupCount": 4
   },
   {
-    "sectionID": "RepYourTeamC",
-    "displayName": "Rep Your Team",
-    "offerGroupCount": 13
-  },
-  {
-    "sectionID": "LoveIsInTheAir0209",
-    "displayName": "Love Is In The Air",
-    "offerGroupCount": 5
-  },
-  {
-    "sectionID": "SignatureStyle0209",
+    "sectionID": "SignatureStyle0211",
     "displayName": "Signature Style",
-    "offerGroupCount": 8
+    "offerGroupCount": 10
   },
   {
-    "sectionID": "JamTracks0209",
+    "sectionID": "Wrap0211",
+    "displayName": "Wrap Shop",
+    "offerGroupCount": 2
+  },
+  {
+    "sectionID": "LoveIsInTheAir0211",
+    "displayName": "Love Is In The Air",
+    "offerGroupCount": 7
+  },
+  {
+    "sectionID": "JamTracks0211",
     "displayName": "Jam Tracks",
     "offerGroupCount": 3
   },
   {
-    "sectionID": "PunkPeely",
-    "displayName": "Spooky Offers",
-    "offerGroupCount": 6
-  },
-  {
-    "sectionID": "LoveIsInTheAir0210",
-    "displayName": "Love Is In The Air",
-    "offerGroupCount": 6
-  },
-  {
-    "sectionID": "SignatureStyle0210",
-    "displayName": "Signature Style",
-    "offerGroupCount": 9
-  },
-  {
-    "sectionID": "FortniteFlowAdd1",
-    "displayName": "Fortnite Flow",
-    "offerGroupCount": 2
-  },
-  {
-    "sectionID": "CyberInfiltration",
-    "displayName": "Cyber Infiltration",
-    "offerGroupCount": 2
-  },
-  {
-    "sectionID": "RepYourTeamD",
-    "displayName": "Rep Your Team",
-    "offerGroupCount": 13
-  },
-  {
-    "sectionID": "JamTracks0210",
-    "displayName": "Jam Tracks",
-    "offerGroupCount": 3
+    "sectionID": "SparksInstruments54",
+    "displayName": "Gear For Festival",
+    "offerGroupCount": 1
   }
 ]
