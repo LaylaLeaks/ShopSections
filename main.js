@@ -2,9 +2,24 @@ require('dotenv').config();
 const axios = require("axios");
 const fs = require("fs");
 
+const ignorePath = "./ignore.json";
 const { custom, api } = require("./config/config")
 const { twitterClient } = require("./config/twitterClient")
 console.log("\x1b[35mThanks for using this bot!\nTo support me leave a star or follow me on twitter @layla_leaks <3\x1b[0m\n");
+
+function loadFilter() {
+  try {
+    if (fs.existsSync(ignorePath)) {
+      const ignoreContent = fs.readFileSync(ignorePath, "utf8");
+      const ignoreData = JSON.parse(ignoreContent);
+      return ignoreData.filterList || [];
+    }
+  } catch (error) {
+    console.error("Error loading ignore.json:", error);
+  }
+  return [];
+}
+
 async function shopSections() {
   try {
     let currentData = [];
@@ -18,6 +33,8 @@ async function shopSections() {
     const response = await axios.get(api.api);
     const data = response.data;
 
+    const filterList = loadFilter();
+
     const currentSections = data.shopData.sections.map((section) => {
         const offerGroups = section.metadata?.offerGroups || [];
         const offerGroupCount = offerGroups.length;
@@ -27,7 +44,8 @@ async function shopSections() {
           displayName: section.displayName,
           offerGroupCount: offerGroupCount,
         };
-    });
+    })
+    .filter(section => !filterList.includes(section.displayName)); // filtered specific sections
 
     const newSections = currentSections.filter(
       (current) => !currentData.some((previous) => previous.sectionID === current.sectionID)
